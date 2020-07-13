@@ -4,12 +4,7 @@ require 'pry'
 
 katz_deli = []
 
-def place_and_name(katz_deli)
-  counter = 0
-  place = (1..katz_deli.size).to_a
-  while counter < katz_deli.size
-    
-
+  
 def line(customers)
   if customers.size == 0 
     puts "The line is currently empty."
@@ -18,6 +13,7 @@ def line(customers)
     puts "The line is currently: #{line_list}. "
   end
 end
+
 
 def take_a_number(katz_deli, new_customer)
 end
