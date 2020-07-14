@@ -11,7 +11,10 @@ def line(customers)
   else
     line_list = []
     counter = 1 
-    customers.each{|name| line_list.push("#{counter}. #{name}" counter += 1)}
+    customers.each do |name| 
+      line_list.push("#{counter}. #{name}")
+      counter += 1
+    end
     puts "The line is currently: #{line_list.join(" ")}. "
   end
 end
