@@ -9,7 +9,7 @@ def line(customers)
   if customers.size == 0 
     puts "The line is currently empty."
   else
-    line_list = customers.each_with_index{|name,index| puts "#{index+1}. #{name} " }
+    line_list = customers.each_with_index{|name,index| puts "#{index+1}. #{name} "}
     puts "The line is currently: #{line_list}. "
   end
 end
