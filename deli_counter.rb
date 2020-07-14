@@ -15,7 +15,7 @@ def line(customers)
       line_list.push("#{counter}. #{name}")
       counter += 1
     end
-    puts "The line is currently: #{line_list.join(" ")}. "
+    puts "The line is currently: #{line_list.join(" ")}."
   end
 end
 
