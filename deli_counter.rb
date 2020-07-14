@@ -21,6 +21,8 @@ end
 
 
 def take_a_number(katz_deli, new_customer)
+  katz_deli << new_customer
+  puts "Welcome, #{new customer}.  You are number #{katz_deli.size} in line."
 end
 
 def now_serving(katz_deli)
